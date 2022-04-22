@@ -17,6 +17,8 @@
 		9C22596E280EB236006EDB93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C225944280EB235006EDB93 /* ContentView.swift */; };
 		9C22596F280EB236006EDB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C225945280EB236006EDB93 /* Assets.xcassets */; };
 		9C225970280EB236006EDB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C225945280EB236006EDB93 /* Assets.xcassets */; };
+		9C8980C62812BE6C003867A5 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8980C52812BE6C003867A5 /* Calculator.swift */; };
+		9C8980C72812BE6C003867A5 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8980C52812BE6C003867A5 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		9C225963280EB236006EDB93 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C225967280EB236006EDB93 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9C225969280EB236006EDB93 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		9C8980C52812BE6C003867A5 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				9C225943280EB235006EDB93 /* CalculatorApp.swift */,
 				9C225944280EB235006EDB93 /* ContentView.swift */,
+				9C8980C52812BE6C003867A5 /* Calculator.swift */,
 				9C225945280EB236006EDB93 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -301,6 +305,7 @@
 			files = (
 				9C22596D280EB236006EDB93 /* ContentView.swift in Sources */,
 				9C22596B280EB236006EDB93 /* CalculatorApp.swift in Sources */,
+				9C8980C62812BE6C003867A5 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				9C22596E280EB236006EDB93 /* ContentView.swift in Sources */,
 				9C22596C280EB236006EDB93 /* CalculatorApp.swift in Sources */,
+				9C8980C72812BE6C003867A5 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
